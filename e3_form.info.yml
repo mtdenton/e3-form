@@ -1,0 +1,6 @@
+name: E3 Form
+type: module
+description: Generates a form to the standard sent over by E3.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

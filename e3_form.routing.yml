@@ -1,0 +1,7 @@
+e3_form.example:
+  path: '/e3-form/example'
+  defaults:
+    _title: 'Example'
+    _form: 'Drupal\e3_form\Form\ExampleForm'
+  requirements:
+    _permission: 'access content'
