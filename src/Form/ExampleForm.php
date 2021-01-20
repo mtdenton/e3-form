@@ -75,11 +75,6 @@ class ExampleForm extends FormBase {
       '#disabled' => TRUE,
       '#prefix' => '<div id="ajax-edit">',
       '#suffix' => '</div>',
-      '#ajax'     => [
-        'callback'  => [$this, 'specialWhatsitCallback'],
-        'event'     => 'load',
-        'wrapper'   => 'ajax-edit',
-      ],
     ];
 
     $form['actions']['submit'] = [
